@@ -676,11 +676,17 @@
 		}
 
 		.with_aside .sidebar.columns {
-			width: 28%;
+			width: 40%;
 		}
 
 		.with_aside .sections_group {
-			width: 72%;
+			width: 60% !important;
+		}
+
+		@media screen and (max-width: 768px) {
+			.with_aside .sections_group {
+				width: 100% !important;
+			}
 		}
 
 		.aside_both .sidebar.columns {
@@ -3512,7 +3518,6 @@
 		gtag('config', 'UA-126873180-1');
 	</script>
 
-	<link rel="stylesheet" href="././use.typekit.net/uek5iab.css">
 	<style type='text/css'>
 		img#wpstats {
 			display: none
@@ -3847,7 +3852,7 @@
 		<div id="Content">
 			<div class="content_wrapper clearfix">
 
-				<div class="sections_group">
+				<div class="sections_group" style="">
 
 					<div class="entry-content" itemprop="mainContentOfPage">
 
@@ -3903,14 +3908,14 @@
 
 				</div>
 
-				<div class="mcb-sidebar sidebar sidebar-1 four columns lines-boxed">
-					<div class="widget-area">
+				<div class="mcb-sidebar sidebar sidebar-1 four columns lines-boxed" style="display: flex;flex-direction:column;justify-content:center;">
+					<div class="widget-area" style="margin: auto;">
 						<div class="inner-wrapper-sticky clearfix">
 							
 							
 							<aside id="custom_html-9" class="widget_text widget widget_custom_html">
 								<div class="textwidget custom-html-widget" style="display: flex; justify-content:center;">
-									<img src="./assests/career.png" />
+									<img src="./assests/career1.png" />
 								</div>
 							</aside>
 						</div>
@@ -3930,9 +3935,7 @@
 				<div class="container">
 					<div class="column one-third">
 
-						<script type="text/javascript"
-							data-dojo-config="usePlainJson: true, isDebug: false">jQuery.getScript("./downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js", function (data, textStatus, jqxhr) { window.dojoRequire(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us18.list-manage.com", "uuid": "b38c07ebe779802d517c9f3e4", "lid": "33aa756f77", "uniqueMethods": true }) }); });</script>
-
+						
 							<aside id="text-62" class="widget widget_text">
 								<h4 class="text-white">Head Office</h4>
 								<div class="textwidget">
@@ -4036,15 +4039,6 @@
 		window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
 		window._linkedin_data_partner_ids.push(_linkedin_partner_id);
 	</script>
-	<script type="text/javascript">
-		(function () {
-			var s = document.getElementsByTagName("script")[0];
-			var b = document.createElement("script");
-			b.type = "text/javascript"; b.async = true;
-			b.src = "././snap.licdn.com/li.lms-analytics/insight.min.js";
-			s.parentNode.insertBefore(b, s);
-		})();
-	</script>
 	<noscript>
 		<img height="1" width="1" style="display:none;" alt=""
 			src="https://dc.ads.linkedin.com/collect/?pid=243819&amp;fmt=gif" />
@@ -4088,9 +4082,6 @@
 		id='mfn-parallax-js'></script>
 	<script type='text/javascript' src='./traneng/wp-content/themes/betheme/js/scripts6f4e.js?ver=21.9.9'
 		id='mfn-scripts-js'></script>
-	<script type='text/javascript'
-		src='./static/p/jetpack/9.4/_inc/build/widgets/eu-cookie-law/eu-cookie-law.min.js'
-		id='eu-cookie-law-script-js'></script>
 	<script type='text/javascript' src='./static/p/jetpack/9.4/_inc/build/twitter-timeline.min.js'
 		id='jetpack-twitter-timeline-js'></script>
 	<script type='text/javascript'
@@ -4109,7 +4100,7 @@
 	<script type='text/javascript'
 		src='./traneng/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.mine6df.js?ver=6.5.0'
 		id='wpb_composer_front_js-js'></script>
-	<script src='././stats.wp.com/e-202107.js' defer></script>
+	
 
 </body>
 
