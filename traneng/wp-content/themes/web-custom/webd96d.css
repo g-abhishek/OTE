@@ -1,0 +1,376 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.greyed {
+	color:#ccc;
+	pointer-events:none;
+}
+
+table th, table td {
+    text-align: left !important;
+} 
+
+
+/* Quick Enquiry Form */
+
+
+
+/* Page specific styles */
+
+body.page-id-2606 .wpb_wrapper > div {
+    margin-bottom: 10px !important;
+}
+
+body.page-id-250 .wpb_wrapper > div {
+    margin-bottom: 10px !important;
+}
+
+body.page-id-51 .wpb_wrapper > div {
+    margin-bottom: 10px !important;
+}
+
+body.parent-pageid-51 img {
+	margin-top: 0px !important;
+}
+
+body.parent-pageid-2606 img {
+	margin-top: 0px !important;
+}
+
+body.parent-pageid-250 img {
+	margin-top: 0px !important;
+}
+
+.intro {
+    font-size: large !important;
+    line-height: 1.4 !important;
+}
+
+/* Nav */
+
+@media (max-width:767px){
+	#Action_bar .contact_details li.slogan {
+		display:block !important;
+	}
+}
+
+	#Action_bar ul.social {
+	    display:none;
+	}
+
+
+/* Font styles */
+
+
+.tfe {
+	font-weight: 700;
+	color: #00A3AD;
+	margin-right: 0.3em;
+}
+
+.vc_general.vc_cta3.vc_cta3-color-white.vc_cta3-style-flat .vc_cta3-content-header h2, .vc_general.vc_cta3.vc_cta3-style-flat .vc_cta3-content-header h2 {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.widget-area .searchandfilter li {
+    display: grid;
+}
+
+h5, h6 {
+    margin-bottom: 15px;
+}
+
+.vc_separator.vc_separator_align_center h4 {
+	font-size: 20px;
+	font-weight: 400;
+    color: #28235d;
+	text-transform: none;
+}
+
+
+body.page-id-4973 h3.vc_custom_heading {
+	text-transform: uppercase;
+}
+
+
+h3 {
+	margin-bottom: 5px;
+}
+
+#footprint h2 {
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.widget_archive ul, .widget_nav_menu ul {
+    background: transparent !important;
+}
+
+.wp-block-image figcaption {
+    font-size: smaller;
+    line-height: normal;
+}
+
+/* Archives page */
+
+.post-desc-wrapper {
+    width: 100% !important;
+}
+
+body.archive .image_frame {
+	display: none !important;
+}
+
+.post-desc {
+	padding-top: 0px !important;
+}
+
+/* Sliders */
+
+body.page-id-4800, .page-id-4838 div.tp-mask-wrap {
+	text-align: center;
+}
+
+
+/* Blog */
+
+.wp-caption-text {
+    background: #fff !important;
+	text-align: left !important;
+  	color: #00A3AD !important;
+	font-size: 13px !important;
+	line-height: 21px !important;
+}
+
+.wp-caption {
+	border: 0px !important;
+}
+
+.post-header {
+	margin-bottom: 0px !important;
+	border-bottom: 2px solid #00A3AD !important;
+}
+
+.hide-love .post-header .title_wrapper {
+	padding-left: 0px !important;
+}
+
+.icon-clock {
+	display: none !important;
+}
+
+body.page-id-2606 .wpb_wrapper p {
+	line-height: 20px !important;
+	padding-bottom: 10px !important;
+}
+
+div.column.one.single-photo-wrapper.image {
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+
+.news-footer {
+	border-top: 2px solid rgba(0,0,0,.08);
+	padding-top: 20px;
+}
+
+#respond .comment-form-url {
+    visibility: hidden;
+}
+
+p.nocomments {
+	display: none;
+}
+
+/* Contact us */
+
+
+/* Buttons */
+
+.button-stroke a.button:not(.action_button), .button-stroke:not(.header-plain) a.button.action_button, .button-stroke a.tp-button, .button-stroke button, .button-stroke input[type="submit"], .button-stroke input[type="reset"], .button-stroke input[type="button"] {
+	border-radius: 0px;
+}
+
+#irrow {
+	height: 310px !important;
+}
+
+/* Bullet lists */
+
+ul.bullets {
+	list-style: none !important;
+}
+
+.bullets li::before {
+	content: "•";
+	color: #00A3AD;
+    display: inline-block;
+	width: 1em;
+    margin-left: -1em;
+}
+
+ol li {
+  counter-increment: list !important;
+  list-style-type: none !important;
+  position: relative !important;
+}
+
+ol li:before {
+  color: #00A3AD !important;
+	font-weight: 700 !important;
+  content: counter(list) "." !important;
+  left: -32px !important;
+  position: absolute !important;
+  text-align: right !important;
+  width: 26px !important;
+}
+
+
+.the_content_wrapper ul li {
+	margin-bottom: 5px;
+}
+
+
+
+.vc_gitem-zone-a .vc_gitem-row-position-top, .vc_gitem-zone-b .vc_gitem-row-position-top, .vc_gitem_row .vc_gitem-col {
+	height: 100% !important;
+}
+
+.display-label {
+  display: inline-block;
+  width: 4.5em;
+	color: #2991D6;
+	font-weight: 800;
+}
+
+.display-field {
+  display: inline-block;
+  text-indent: 0px;
+  vertical-align: top;
+  max-width: 500px;
+}
+
+.menu li {
+	text-align: left;
+	margin-left: 5px;
+}
+
+#eu-cookie-law {
+	font-family: 'HelveticaNeueLTPro-Lt', Arial, sans-serif;
+	font-size: 14px;
+}
+
+#eu-cookie-law input.accept {
+    border: 2px solid #dedede;
+    color: #2e4453;
+    font-family: 'HelveticaNeueLTPro-Bd', Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Home page */
+
+.vc-hoverbox-wrapper.vc-hoverbox-align--center {
+margin-bottom: 0px;
+}
+
+.wpb_wrapper > div {
+	margin-bottom: var();
+}
+
+.vc-hoverbox-block-inner {
+	padding: 80px !important;
+}
+
+div.wpb_revslider_element.wpb_content_element {
+	margin-bottom: 0px;
+}
+
+h2.vc_custom_heading.sectors {
+	background-color: rgba(23,41,82,0.8);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 400;
+	
+}
+
+/* Related Posts */
+
+#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a {
+	text-transform: none !important;
+	font-weight: 700 !important;
+	font-size: 15px !important;
+}
+
+p.jp-relatedposts-post-excerpt {
+	display: none !important;
+}
+
+#jp-relatedposts h3.jp-relatedposts-headline {
+	font-size: 21px !important;
+}
+
+
+cite {
+	font-size: 14px !important;
+	font-style: normal !important;
+}
+
+body.tax-discipline  div.date_label, .post-footer, body.tax-country div.date_label, .post-footer {
+	display: none;
+}
+
+body.tax-discipline h2.entry-title, body.tax-country h2.entry-title {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+body.tax-discipline .timeline .post-item, body.tax-country .timeline .post-item {
+	padding-bottom: 20px;
+}
+
+.title {
+	font-family: "Helvetica Neue Pro Light", Arial, Tahoma, sans-serif;
+}
+
+form.searchandfilter ul {
+	margin-left: 0px;
+}
+
+form.searchandfilter li {
+	max-width: 180px;
+}
+
+form.searchandfilter {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.widget-area .searchandfilter li {
+    display: grid;
+}
+
+div.tech-search {
+	margin-bottom: 10px !important;
+}
+
+figure.wp-block-pullquote .is-style-default {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+div.odyssey {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 30px;
+}
+
+body.page-id-6067 div.the_content_wrapper {
+    margin-bottom: 0px;
+}
