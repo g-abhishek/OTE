@@ -2961,7 +2961,14 @@
 
 		#Top_bar .menu>li ul li a:hover,
 		#Top_bar .menu>li ul li.hover>a {
-			color: #dddddd;
+			color: #ffffff;
+			background-color: #bd1522;
+		}
+		.menu li{
+			margin-left: 0 !important;
+		}
+		#Side_slide #menu ul li a{
+			margin-right: 45px !important;
 		}
 
 		#Top_bar .search_wrapper {
@@ -3008,13 +3015,14 @@
 		#Side_slide .search-wrapper input.field,
 		#Side_slide a:not(.action_button),
 		#Side_slide #menu ul li.submenu .menu-toggle {
-			color: #A6A6A6;
+			color: #ffffff;
 		}
 
 		#Side_slide a:not(.action_button):hover,
 		#Side_slide a.active,
 		#Side_slide #menu ul li.hover>.menu-toggle {
 			color: #ffffff;
+			background-color: #bd1522;
 		}
 
 		#Side_slide #menu ul li.current-menu-item>a,
@@ -3487,7 +3495,7 @@
 
 			#Action_bar .social li a,
 			#Action_bar .social-menu a {
-				color: #bbbbbb !important
+				color: #28235d !important
 			}
 
 			#Action_bar .social li a:hover,
@@ -3689,6 +3697,12 @@
 								<li class="phone"><i class="icon-phone"></i><a class="number" href="tel:+919920222233">
 									+91 9920222233</a></li>
 							</ul>
+							<ul class="social" style="display: block;">
+								<li class="">
+									<a style="color: #bbbbbb;">Offshore Transport and Engineering LLP
+									</a>
+								</li>
+							</ul>
 							
 						</div>
 					</div>
@@ -3736,11 +3750,11 @@
 											<li id="menu-item-7530"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
 												<a><span>Services</span></a>
-												<ul class="sub-menu theme-color-bg-red">
+												<ul class="sub-menu theme-color-bg-purple">
 													<li id="menu-item-7485"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
 														<a><span>Technical Services</span></a>
-														<ul class="sub-menu theme-color-bg-red">
+														<ul class="sub-menu theme-color-bg-purple">
 															<li id="menu-item-7488" class="menu-item menu-item-type-post_type menu-item-object-page">
 																<a href="./services/technical/salvage.html"><span>Salvage</span></a>
 															</li>
@@ -3767,7 +3781,7 @@
 													<li id="menu-item-7485"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
 														<a><span>Corporate Services</span></a>
-														<ul class="sub-menu theme-color-bg-red">
+														<ul class="sub-menu theme-color-bg-purple">
 															<li id="menu-item-7488" class="menu-item menu-item-type-post_type menu-item-object-page">
 																<a href="./services/corporate/country-representation.html"><span>In Country Representation</span></a>
 															</li>
@@ -3791,7 +3805,7 @@
 											</li>
 											<li id="menu-item-6898"
 												class="menu-item menu-item-type-post_type menu-item-object-page"><a
-													href="./contact.html"><span>Contact us</span></a></li>
+													href="./contact.html"><span>Contact Us</span></a></li>
 										</ul>
 									</nav><a class="responsive-menu-toggle " href="#"><i class="icon-menu-fine"></i></a>
 								</div>
@@ -3911,7 +3925,7 @@
 							
 							<aside id="custom_html-9" class="widget_text widget widget_custom_html">
 								<div class="textwidget custom-html-widget" style="display: flex; justify-content:center;">
-									<img src="http://leanqualities.com/wp-content/uploads/2020/01/career.png" />
+									<img src="https://www.survivalsystemsinternational.com/wp-content/uploads/2020/11/technical-buyer-uk.jpg" />
 								</div>
 							</aside>
 						</div>
@@ -3963,18 +3977,25 @@
 					<div class="column one-third">
 						<aside id="search-12" class="widget widget_search">
 							<h4 class="text-white">Search the site</h4>
-							<form method="get" target="_blank" action="http://google.com/search">
+							<form id="searchForm" target="_blank" onsubmit="myFunction()">
 
 
 								<i class="icon_search icon-search-fine"></i>
 								<a href="#" class="icon_close"><i class="icon-cancel-fine"></i></a>
 
-								<input type="text" class="field" name="q" placeholder="Enter your search" />
+								<input type="text" class="field"  id="q" name="q" placeholder="Enter your search" />
 								<input type="submit" class="display-none" value="" />
 
 							</form>
 						</aside>
 					</div>
+					<script>
+						function myFunction(){
+							var val = document.getElementById("q").value;
+							window.open(`https://google.com/search?q=site:traneng.com ${val}`)
+						}
+						
+					</script>
 				</div>
 			</div>
 
@@ -3996,7 +4017,7 @@
 
 	</div>
 
-	<div id="Side_slide" class="right dark theme-color-bg-red" data-width="250">
+	<div id="Side_slide" class="right dark theme-color-bg-purple" data-width="250">
 		<div class="close-wrapper"><a href="#" class="close"><i class="icon-cancel-fine"></i></a></div>
 		<div class="extras">
 			<div class="extras-wrapper"></div>
